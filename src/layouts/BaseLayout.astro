@@ -21,11 +21,11 @@ let { title } = Astro.props;
 	</head>
 	<body>
 		<div id="container">
-			<Header header={title} />
-			<Main />
+			<Header header={title}></Header>
+			<Main >
 			<slot/>
 			<Main />
-			<Footer />
+			<Footer ></Footer>
 		</div>
 	</body>
 </html>
